@@ -1,0 +1,39 @@
+@import './mixins.scss';
+header{
+  top: 0;
+  position: sticky;
+  background: rgb(255, 255, 255);
+}
+header{
+  padding: 10px;
+  color: $Orange;
+  .logo{
+    font-size: 2rem;
+  }
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-bar__Link{
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 10px;
+  color: $Orange;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.nav-bar__Link:last-child{
+  margin: 0 0 0 10px;
+}
+.nav-bar__Link:hover{
+  text-decoration: none;
+  transition: .3s;
+  color: $whiteSmoke;
+  background: $Orange;
+}
+.nav-bar__Link-active{
+  color: $whiteSmoke;
+  background: $Orange;
+}

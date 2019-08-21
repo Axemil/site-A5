@@ -1,0 +1,10 @@
+@mixin fontLato {
+  font-family: 'Lato', sans-serif;
+}
+@mixin centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+$Orange: #ff8c00;
+$whiteSmoke: rgb(240, 240, 240);
