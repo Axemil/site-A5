@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
+import ContuctUs from './ContuctUs'
+import FooterInfo from './FooterInfo'
 
 export default class Footer extends Component {
   render() {
     return (
-      <footer>
-        <h1>Footer</h1>
-      </footer>
+      <div className="All-in-footer">
+        <ContuctUs />
+        <FooterInfo />
+      </div>
     )
   }
 }
+

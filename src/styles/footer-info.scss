@@ -1,0 +1,29 @@
+@import "./mixins.scss";
+@import "../fonts/flaticon/font/flaticon";
+.site-footer {
+  padding: 4em 0;
+  background: #333333;
+
+  .footer-heading {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  p {
+    color: #737373;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: #999999;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-footer {
+    padding: 8em 0;
+  }
+}
