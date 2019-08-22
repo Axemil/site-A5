@@ -58,34 +58,60 @@ const Header = () => {
                 </div>
                 <div className="nav-bar__Dropdown">
                   <NavLink
+                    to="/Eng1"
                     style={{ textDecoration: "none", color: "rgb(37, 37, 37)" }}
                     className="nav-bar__Dropdown-item"
                   >
-                    Обследование конструктивных элементов зданий
+                    Инженерно-техническое обследование конструктивных элементов зданий и сооружений
                   </NavLink>
                   <NavLink
+                    to="/Eng2"
                     style={{ textDecoration: "none", color: "rgb(37, 37, 37)" }}
                     className="nav-bar__Dropdown-item"
                   >
-                    Обследование внутренних и внешних сетей зданий
+                    Инженерно-техническое обследование внутренних и внешних сетей инженерного обеспечения зданий и сооружений
                   </NavLink>
                   <NavLink
+                    to="/Eng3"
                     style={{ textDecoration: "none", color: "rgb(37, 37, 37)" }}
                     className="nav-bar__Dropdown-item"
                   >
-                    Проектирование пожарных систем
+                    Инженерно-техническое обследование внутриплощадочных сетей инженерного обеспечения
                   </NavLink>
                   <NavLink
+                    to="/Eng4"
                     style={{ textDecoration: "none", color: "rgb(37, 37, 37)" }}
                     className="nav-bar__Dropdown-item"
                   >
-                    Разработка планов эвакуации
+                    Проектирование систем пожарной безопасности
                   </NavLink>
                   <NavLink
+                    to="/Eng5"
                     style={{ textDecoration: "none", color: "rgb(37, 37, 37)" }}
                     className="nav-bar__Dropdown-item"
                   >
-                    Разработка сетей
+                    Разработка и изготовление планов эвакуации согласно ГОСТ
+                  </NavLink>
+                  <NavLink
+                    to="/Eng6"
+                    style={{ textDecoration: "none", color: "rgb(37, 37, 37)" }}
+                    className="nav-bar__Dropdown-item"
+                  >
+                    Проектирование слаботочных систем(ЛВС, ОС, АИС и т.д.)
+                  </NavLink>
+                  <NavLink
+                    to="/Eng7"
+                    style={{ textDecoration: "none", color: "rgb(37, 37, 37)" }}
+                    className="nav-bar__Dropdown-item"
+                  >
+                    Архитектурное проектирование, конструирование, проектирование инженерных сетей.
+                  </NavLink>
+                  <NavLink
+                    to="/Eng8"
+                    style={{ textDecoration: "none", color: "rgb(37, 37, 37)" }}
+                    className="nav-bar__Dropdown-item"
+                  >
+                    Проведение НИОКР в области термостабилизации грунтов и оснований
                   </NavLink>
                 </div>
               </NavLink>
