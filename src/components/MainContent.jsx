@@ -17,10 +17,10 @@ const MainContent = () => {
   return (
     <main>
       <Switch>
-        <Route exact path="/Главная" component={HomePage}></Route>
+        <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/Заказ" component={Order}></Route>
         <Route exact path="/Оплата" component={Pay}></Route>
-        <Route exact path="/Цена" component={Price}></Route>
+        <Route exact path="/Цены" component={Price}></Route>
         <Route exact path="/Eng1" component={Eng1}></Route>
         <Route exact path="/Eng2" component={Eng2}></Route>
         <Route exact path="/Eng3" component={Eng3}></Route>
