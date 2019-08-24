@@ -5,6 +5,10 @@
 }
 .rowStyles{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+.cardStyles{
+    padding: 0 10px;
 }

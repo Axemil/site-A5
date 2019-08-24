@@ -1,11 +1,28 @@
-import React from 'react'
+import React from "react";
+import { Container,Row,Col } from "react-bootstrap";
+
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>HomePage</h1>
-    </div>
-  )
-}
+    <Container fluid style={{ padding: "0 0 0 2em" }}>
+      <Row>
+        <Col></Col>
+        <Col></Col>
+      </Row>
+      <Row>
+        <Col></Col>
+        <Col></Col>
+      </Row>
+      <Row>
+        <Col></Col>
+        <Col></Col>
+      </Row>
+      <Row>
+        <Col></Col>
+        <Col></Col>
+      </Row>
+    </Container>
+  );
+};
 
-export default HomePage
+export default HomePage;
