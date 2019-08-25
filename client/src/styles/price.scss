@@ -1,0 +1,14 @@
+@import './mixins.scss';
+.CardTitle{
+    text-align: center;
+    margin-top: 10px;
+}
+.rowStyles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+.cardStyles{
+    padding: 0 10px;
+}
